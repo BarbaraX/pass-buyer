@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_red">#B22222</color>
+    <color name="dark_blue">#104E8B</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="icon_blue">#ff6ea0f2</color>
+    <color name="icon_green">#ffbfdf00</color>
+    <color name="icon_green_dark">#ff669900</color>
+    <color name="icon_lila">#ffc46ee3</color>
+    <color name="icon_orange">#ffffb420</color>
+    <color name="icon_green_download">#ee66cd00</color>
+</resources>

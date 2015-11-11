@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PassBuyer</string>
+    <string name="title_activity_retailer_list">RetailerListActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_shop_detail">ShopDetailActivity</string>
+
+    <string name="btn_download">下 载</string>
+    <string name="btn_add">添 加</string>
+    <string name="btn_retry">重 试</string>
+</resources>

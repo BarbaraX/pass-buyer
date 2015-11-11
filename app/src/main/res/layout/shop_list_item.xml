@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp" android:descendantFocusability="blocksDescendants"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/shop_img" android:layout_gravity="center_vertical"
+        android:src="@drawable/background"
+        android:layout_width="110dp" android:layout_height="90dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="140dp"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/shop_name_view"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="永辉超市" android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <View
+            android:layout_width="match_parent" android:layout_height="2dip"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+            android:background="#dfdfdf" android:padding="8dp"/>
+
+        <LinearLayout
+            android:layout_marginBottom="1dp" android:layout_marginTop="6dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="电话：" android:textSize="12sp" android:textColor="?android:attr/textColorSecondary"/>
+            <TextView android:id="@+id/shop_tel_view"
+                android:autoLink="phone"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="15196607529" android:textSize="12sp" android:textColor="?android:attr/textColorSecondary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="地址：" android:textSize="12sp" android:textColor="?android:attr/textColorSecondary"/>
+            <TextView android:id="@+id/shop_addr_view"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="高新西区西源大道2006号龙湖时代天街" android:textSize="12sp" android:textColor="?android:attr/textColorSecondary"
+                android:singleLine="true" android:ellipsize="end"/>
+        </LinearLayout>
+
+        <TextView android:id="@+id/shop_info_view"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:text="永辉超市商品种类繁多、物美价廉。定期会有打折促销活动。是人们生活中不可获取的购买场所，欢迎光临永辉超市。呵呵呵呵呵呵呵"
+            android:maxLines="3" android:ellipsize="end"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_userName">用户手机号</string>
+    <string name="prompt_password">用户密码</string>
+    <string name="action_sign_in">登 录</string>
+    <string name="action_register">注 册</string>
+    <string name="action_remember">记住用户名和密码</string>
+
+    <string name="error_invalid_userName">用户手机号未注册</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_userName_required">请输入用户名!</string>
+    <string name="error_password_required">请输入密码!</string>
+    <string name="error_register_failed">用户名已存在</string>
+    <string name="error_action_failed">操作失败,检查程序中IP设置</string>
+
+    <string name="success_register">注册成功</string>
+
+    <string name="label_organization">嵌入式软件工程中心</string>
+</resources>
